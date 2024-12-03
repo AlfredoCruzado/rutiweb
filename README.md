@@ -1,9 +1,10 @@
-# Listar el contenido del directorio Backend
-backend_path = os.path.join(project_path, 'Backend')
-backend_contents = os.listdir(backend_path)
-
-# Listar el contenido del directorio Frontend
-frontend_path = os.path.join(project_path, 'Frontend')
-frontend_contents = os.listdir(frontend_path)
-
-backend_contents, frontend_contents
+#Backend: 
+Contiene el servidor backend en Django.
+#Frontend: 
+Contiene el cliente React.
+#db.json: 
+un archivo de base de datos para pruebas ( usado con JSON Server).
+#node_modules: 
+Dependencias de Node.js para el frontend.
+#package.json y package-lock.json: 
+Archivo de configuración y dependencias para React/Node.js.
