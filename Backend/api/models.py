@@ -7,7 +7,7 @@ class Route(models.Model):
     notas = models.TextField()
     
     def __str__(self):
-        return self.ruta
+        return self.ruta 
     
     
 class RutaLocal(models.Model):
@@ -17,4 +17,4 @@ class RutaLocal(models.Model):
     notas = models.TextField()
 
     def __str__(self):
-        return self.ruta 
+        return self.ruta

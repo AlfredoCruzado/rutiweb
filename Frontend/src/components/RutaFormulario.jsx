@@ -54,9 +54,11 @@ const RutaFormulario = () => {
           Nombre:
           <input
             type="text"
-            name="nombre"
+            name="route_id"
             value={ruta.id}
             onChange={handleChange}
+            placeholder="ID de la ruta"
+            disabled={id}  // El ID no se puede modificar si estamos editando
             required
           />
         </label>
