@@ -7,7 +7,7 @@ const ListadoRutas = () => {
 
   useEffect(() => {
     // Consultar las rutas desde el backend (base de datos PostgreSQL)
-    //axios.get('http://localhost:8000/api/local-routes/')  // Cambiado a la URL correcta
+    //axios.get('http://localhost:8000/api/local-routes/')  
     axios.get('http://localhost:8000/api/external-routes/')
       .then(response => {
         console.log(response.data);  // Añadido para depurar la respuesta
