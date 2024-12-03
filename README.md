@@ -118,7 +118,7 @@ JSON Server (para rutas externas): Si utilizas un servidor JSON para simular rut
 ## Contacto
 ------------
 
-* Autor: [Alfredo Cruzado]
+* Autor: Alfredo Cruzado
 * Correo electrónico: [Alfredo.c12@hotmail.com]
 * GitHub: [https://github.com/AlfredoCruzado]
 
